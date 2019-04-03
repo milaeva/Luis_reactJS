@@ -1,0 +1,44 @@
+/* *{
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+} */
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 112px;
+  margin-bottom: 125px;
+}
+.text{
+  min-height: 550px;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+}
+.title{
+  color: #797979;
+  font-size: 46px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.button{
+  height: 50px;
+  width: 245px;
+  margin-top: 30px;
+}
+.subtitle{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button{
+  background-color: #fff;
+  border: 1px solid grey;
+}
+.btn{
+  text-decoration: none;
+  color: black;
+}

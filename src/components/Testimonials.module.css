@@ -1,0 +1,49 @@
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.testimonials{}
+.title{
+  font-family: 'Asap', sans-serif;
+  color: #868686;
+  font-size: 46px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+.info{
+  display: block;
+  justify-content: center;
+}
+.subtitle{
+  color: #979797;
+  font-size: 30px;
+  line-height: 1.5;
+  padding-right: 10px;
+}
+.post{
+  font-size: 12px;
+  line-height: 2.1;
+  padding-right: 20px;
+}
+.review{
+  color: #d5d5d5;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.img{
+  margin-right: 30px;
+}

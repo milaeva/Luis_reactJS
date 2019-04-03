@@ -1,0 +1,29 @@
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.icons{
+  background-color: #f6f6f6;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.pro{
+  min-height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Asap', sans-serif;
+}
+.icon{
+  padding: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.content{
+  margin-top: 10px;
+}

@@ -1,0 +1,64 @@
+.portpholio{
+  background-color: #f6f6f6;
+}
+
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.title{
+  font-family: 'Asap', sans-serif;
+  color: #a3a3a3;
+  font-size: 46px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.items{
+  margin: 10px;
+  width: 100;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(122,122,122,0.6);
+}
+img{
+  width: 100%;
+}
+.button1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn{
+  height: 48px;
+  width: 192px;
+  text-align: center;
+  align-items: center;
+
+  margin-bottom: 120px;
+  background-color: #fff;
+  border: 1px solid grey;
+  box-shadow: 0 0 10px rgba(122,122,122,0.5);
+}
+.btn1{
+  text-decoration: none;
+  color: #b4b4b4;
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

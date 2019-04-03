@@ -1,0 +1,37 @@
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.services{
+  background-color: #f6f6f6;
+}
+.title{
+  font-size: 46px;
+  text-transform: uppercase;
+  font-family: 'Asap', sans-serif;
+  color: #a3a3a3;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 120px;
+}
+.service{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.user{
+  height: 165px;
+  width: 225px;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text{
+  padding-top: 10px;
+  font-family: 'Asap', sans-serif;
+  font-size: 24px;
+}

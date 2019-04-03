@@ -1,0 +1,64 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.homeBgC{
+  background-color: #dfdcd9c2;
+}
+.home{
+  padding-top: 1px;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.content{
+  min-height: 650px;
+  background-image: url(../img/face.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title{
+  padding-top: 180px;
+  padding-left: 10px;
+  font-family: 'Asap', sans-serif;
+  font-size: 70px;
+}
+.subtitle{
+  font-family: 'Asap', sans-serif;
+  font-size: 22px;
+}
+.button0{
+  width: 160px;
+  height: 50px;
+  font-family: 'Asap', sans-serif;
+  border: none;
+  background-color: #8f93ac;
+}
+.btn{
+  text-decoration: none;
+  color: #fff;
+}
+.button1{
+  position: relative;
+  width: 160px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  font-family: 'Asap', sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 1px;
+  color: black;
+}
+.btn1{
+  text-decoration: none;
+}

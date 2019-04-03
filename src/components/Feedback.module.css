@@ -1,0 +1,100 @@
+/* *{
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+} */
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.feedback{
+  background-image: url(../img/contact_bg.png);
+  background-size: cover;
+  margin-top: 100px;
+  position: relative;
+}
+.form{
+  display: block;
+  flex-flow: row wrap;
+}
+.title{
+  font-family: 'Asap', sans-serif;
+  font-size: 46px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  color: #fff;
+  position: relative;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  text-align: center;
+}
+.message{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  text-align: center;
+}
+input{
+  width: 769px;
+  min-height: 58px;
+  margin: 11px;
+  padding-left: 5px;
+  font-family: 'Asap', sans-serif;
+  color: #cfcfcf;
+  background-color: #fff;
+  position: relative;
+}
+textarea{
+  width: 769px;
+  height: 208px;
+  padding: 5px;
+  font-family:'Asap', sans-serif;
+  color: #cfcfcf;
+  background-color: #fff;
+  position: relative;
+}
+.button{
+  height: 50px;
+  width: 123px;
+  margin: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn{
+  text-decoration: none;
+  color: #636363;
+}
+.feedback::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #646465;
+  opacity: .6;
+}
+footer{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  border-top: 2px solid #fff;
+  color: #fff;
+  }
