@@ -42,3 +42,6 @@
   text-decoration: none;
   color: black;
 }
+.img{
+  width: inherit;
+}

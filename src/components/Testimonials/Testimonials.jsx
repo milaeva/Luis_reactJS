@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Testimonials.module.css'
+import team from '../../img/img.png'
 
 const Testimonials = () =>{
   return (
@@ -8,7 +9,7 @@ const Testimonials = () =>{
         <h2 className={s.title}>TESTIMONIALS</h2>
         <div className={s.sub}>
           <div className={s.slider}>
-            <img src="../img/img.png" alt="img" className={s.img}/>
+            <img src={team} alt="img" className={s.img}/>
             <div className={s.info}>
               <h4 className={s.subtitle}>Limara tusi</h4>
               <p className={s.post}>CEO, RanDOM COMPANY</p>

@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Header.module.css'
+import vector from '../.././img/Vector.png'
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className={s.container}>
         <div className={s.navbar}>
           <div className={s.logo}>
-            <img src="img/Vector Smart Object.png" alt="" className={s.image}/>
+            <img src={vector} alt="" className={s.image}/>
             <strong className={s.title}>Oenrique</strong>
             <span className={s.subtitle}>UX/UI Expert</span>
           </div>

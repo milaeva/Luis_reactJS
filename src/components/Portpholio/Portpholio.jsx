@@ -1,5 +1,11 @@
 import React from 'react';
 import s from './Portpholio.module.css'
+import image1 from '../.././img/1.png'
+import image2 from '../.././img/2.png'
+import image3 from '../.././img/3.png'
+import image4 from '../.././img/4.png'
+import image5 from '../.././img/5.png'
+import image6 from '../.././img/6_1.png'
 
 const Portpholio = () => {
   return (
@@ -8,22 +14,22 @@ const Portpholio = () => {
         <h2 className={s.title}>PORTFOLIO</h2>
         <div className={s.image}>
           <div className={s.items}>
-            <img src="../img/1.png" alt="img"/>
+            <img src={image1} alt="img"/>
           </div>
           <div className={s.items}>
-            <img src="../img/2.png" alt="img"/>
+            <img src={image2} alt="img"/>
           </div>
           <div className={s.items}>
-            <img src="../img/3.png" alt="img"/>
+            <img src={image3} alt="img"/>
           </div>
           <div className={s.items}>
-            <img src="../img/4.png" alt="img"/>
+            <img src={image4} alt="img"/>
           </div>
           <div className={s.items}>
-            <img src="../img/5.png" alt="img" />
+            <img src={image5} alt="img" />
           </div>
           <div className={s.items}>
-            <img src="../img/6_1.png" alt="img"/>
+            <img src={image6} alt="img"/>
           </div>
         </div>
         <div className={s.button1}>

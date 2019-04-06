@@ -8,7 +8,7 @@
   margin: auto;
 }
 .feedback{
-  background-image: url(../img/contact_bg.png);
+  background-image: url(../../img/contact_bg.png);
   background-size: cover;
   margin-top: 100px;
   position: relative;

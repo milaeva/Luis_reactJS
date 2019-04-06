@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './About.module.css'
+import bg from '../.././img/img_bg.png'
 
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
           </button>
         </div>
         <div className={s.image}>
-          <img src="../img/img_bg.png" alt="bg" className={s.img}/>
+          <img src={bg} alt="bg" className={s.img}/>
         </div>
       </div>
     </div>

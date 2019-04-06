@@ -19,7 +19,7 @@
 
 .content{
   min-height: 650px;
-  background-image: url(../img/face.png);
+  background-image: url(../../img/face.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 100px;
